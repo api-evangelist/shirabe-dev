@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-shirabe-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://shirabe.dev/
+Shirabe is an API platform providing deterministic Japanese data via four REST APIs: calendar, address normalization, Japanese text processing, and corporate number verification. It guarantees consistent JSON schema responses, low cost per call, and includes attribution to public data sources. The service offers free tier usage without registration and targets AI agents needing reliable factual data.
+
+**Areas:** API Platform · Japanese Data · Deterministic · Free Tier · AI Integration
+
+## shirabe-dev on APIs.io
+
+Everything profiled for shirabe-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shirabe-dev/](https://apis.io/providers/shirabe-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [shirabe-dev Calendar API](https://apis.io/apis/shirabe-dev/shirabe-dev-calendar-api/) — 暦情報の取得
+- [shirabe-dev Hub API](https://apis.io/apis/shirabe-dev/shirabe-dev-hub-api/) — 複合正規化（住所・人名・法人番号・暦を 1 コールで横断）
+- [shirabe-dev System API](https://apis.io/apis/shirabe-dev/shirabe-dev-system-api/) — システム情報
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Shirabe Dev Agentic Access](https://apis.io/agentic-access/shirabe-dev/shirabe-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BestDaysResponse](https://apis.io/schemas/shirabe-dev/shirabe-dev-best-days-response/)
+- [CalendarRangeResponse](https://apis.io/schemas/shirabe-dev/shirabe-dev-calendar-range-response/)
+- [CalendarResponse](https://apis.io/schemas/shirabe-dev/shirabe-dev-calendar-response/)
+- [EnrichRequest](https://apis.io/schemas/shirabe-dev/shirabe-dev-enrich-request/)
+- [EnrichResponse](https://apis.io/schemas/shirabe-dev/shirabe-dev-enrich-response/)
+- [HealthResponse](https://apis.io/schemas/shirabe-dev/shirabe-dev-health-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shirabe Dev Context](https://apis.io/jsonld/shirabe-dev/shirabe-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [shirabe-dev API Rules](https://apis.io/rules/shirabe-dev/shirabe-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shirabe Dev Authentication](https://apis.io/security/shirabe-dev/shirabe-dev-authentication/)
+- [Shirabe Dev Domain Security](https://apis.io/security/shirabe-dev/shirabe-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shirabe Dev Plans Pricing](https://apis.io/plans/shirabe-dev/shirabe-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shirabe.dev/)
+- [Documentation](https://shirabe.dev/calendar/docs)
+- [API reference](https://shirabe.dev/llms.txt)
+- [Pricing](https://shirabe.dev/pricing)
+- [Terms of service](https://shirabe.dev/terms)
+- [Privacy policy](https://shirabe.dev/privacy)
+- [GitHub](https://github.com/techwell-inc-jp)
+
+## API Evangelist rating
+
+**Kin Score 54.9** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 64.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 60.0 |
+
+**Agent readiness 44.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shirabe-dev/](https://apis.io/providers/shirabe-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for shirabe-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shirabe-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
